@@ -1,0 +1,319 @@
+/***************************** FONTS */
+html{
+    font-family: 'Lato', sans-serif;
+    color: rgb(44, 33, 36);
+}
+
+
+/***************************** Global */
+body {
+    background-image: url(https://raw.githubusercontent.com/schneblymillie/schneblymillie.github.io/master/img/mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;  
+    margin-top: 10em; 
+}
+
+
+/***************************** Layout */
+
+h1{
+    background-color: white; 
+    margin-top: .5em; 
+    width: 100%; 
+    height: 5em; 
+    font-weight: 100;
+    font-size: 13em; 
+    letter-spacing: .01em;
+    line-height: .9em;
+    text-align: center; 
+    top: 0; 
+    padding-top: .5em; 
+}
+
+h1.millicent {
+    margin-top: 2em; 
+}
+
+.desk {
+    display: block; 
+    width: 50%; 
+    height: 50%;
+    margin-top: 100px; 
+    border-radius: 50%;
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+}
+
+.couch {
+    display: block; 
+    width: 30%; 
+    height: 30%; 
+    margin-top: 100px; 
+    border-radius: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 100px; 
+    
+}
+
+#line {
+    width: 40%; 
+    background-color: rgb(136, 129, 128); 
+    height: 2px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    
+}
+
+.resume-title {
+    height: 2em; 
+}
+
+
+
+/*****************************Typography*/
+
+.info {
+    color: white;
+    text-align: center;
+    background-color: rgb(179, 179, 179);
+    width: 100%;
+    height: 5em;
+    line-height: .3em;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    margin-bottom: 50px;
+    letter-spacing: .04em;
+    font-weight: 100;
+}
+
+.about {
+    background-color: white; 
+    color: rgb(44, 33, 36);
+    padding-top: 3em; 
+    padding-bottom: 3em; 
+    padding-left: 3em; 
+    padding-right: 3em; 
+    line-height: 1.35em; 
+    letter-spacing: .05em; 
+    font-weight: 300; 
+    margin-bottom: 100px; 
+}
+
+.paragraph {
+    max-width: 60%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.resume {
+    background-color: white; 
+    padding: 3em; 
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+    
+}
+
+h2{
+    font-weight: 300; 
+}
+
+h3 {
+    padding-left: 3em; 
+    font-weight: 100; 
+}
+
+.resume ul li {
+    display: block; 
+    font-weight: 100; 
+    line-height: 1.5em; 
+}
+/*****************************Navigation*/
+
+
+.nav {
+    background-color: white;  
+    width: 100%; 
+    height: 150px; 
+    text-align: center; 
+    font-family: 'lato', sans-serif; 
+    font-weight: 100; 
+    font-size: 3em;  
+    position: fixed; 
+    margin-top: -4em; 
+}
+
+li{ 
+    display: inline-block; 
+    text-decoration: inherit;
+    color: rgb(44, 33, 36);  
+    padding-top: -1.5em; 
+    margin: 0em; 
+}
+
+a {
+    color: rgb(44, 33, 36); 
+    text-decoration: none; 
+    letter-spacing: .2em; 
+}
+
+a:visited {
+    color: rgb(179, 179, 179)
+}
+
+ul li a {
+    color: rgb(44, 33, 36); 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: rgb(44, 33, 36); 
+    
+}
+
+.info a {
+    color: white; 
+}
+.info a:hover {
+    color: rgb(44,33,36); 
+    
+}
+
+/*****************************GALLERY*/
+
+
+
+.thumbs ul li img{
+    width: 120%; 
+    height: 120%; 
+    padding-right: 1em; 
+    
+}
+
+.fullsize ul li {
+    display: inline-block; 
+    padding-right: 2em; 
+    padding-bottom: 2em; 
+    
+}
+
+.fullsize ul{
+    display: block;  
+/*    padding-left: 21em; */
+    margin: 0 auto; 
+    min-width: 10%; 
+}
+
+.photo-title {
+    background-color: white; 
+    width: 100%; 
+    height: 4em; 
+    text-align:; 
+    font-size: 6em; 
+    padding-top: .5em; 
+    
+}
+/*****************************MEDIA QUERIES*/
+
+@media (max-width: 1151px) {
+    .nav {
+        font-size: 2em; 
+    }
+    
+    h1 {
+        height: 2em; 
+        font-size: 8em; 
+    }
+    
+    .millicent {
+        height: 2em; 
+        font-size: 7em; 
+    }
+    
+    .photo-title {
+        font-size: 5em; 
+    }
+    
+    
+}
+
+@media (max-width: 991px) {
+    .millicent {
+        font-size: 5em; 
+    }
+    
+    .photo-title {
+        font-size: 4em;
+        height: 4.5em;
+        padding-top: 1em;
+    }
+}
+@media (max-width: 725px) {
+    .nav {
+        font-size: 2em; 
+        font-weight: 300; 
+        height: auto;
+    }
+    
+    .nav li {
+        display: block; 
+    }
+    
+    h1 {
+        height: 1em; 
+        font-size: 5em; 
+    }
+    
+    .desk {
+        width: 80%; 
+        height: 80%; 
+    }
+
+    .millicent {
+        height: 3em; 
+        font-size: 4em; 
+    }
+    
+    .info {
+        font-size: 2em; 
+    }
+    
+    .photo-title {
+        height: 5em; 
+        padding: .75em; 
+    }
+    
+    ul li{
+        width: 100%; 
+        height: 100%; 
+        padding-right: 0em; 
+        
+    }
+    
+    .fullsize ul {
+        padding-left: 1em; 
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+        ul li{
+        width: 100%; 
+        height: 100%; 
+        padding-right: 0em; 
+        
+    }
+    
+    .fullsize ul {
+        padding-left: 1em; 
+    }
+}
+
+
+
+    
+
